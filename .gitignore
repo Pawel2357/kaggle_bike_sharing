@@ -1,6 +1,7 @@
 *.csv
+*.DS_store
 *.p
-*.DS_Store
+.ipynb_checkpoints/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -70,10 +71,6 @@ docs/_build/
 # PyBuilder
 target/
 
-# Jupyter Notebook
-*/.ipynb_checkpoints/*
-.ipynb_checkpoints
-
 # pyenv
 .python-version
 
@@ -102,4 +99,3 @@ ENV/
 
 # mypy
 .mypy_cache/
-
