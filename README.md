@@ -10,7 +10,10 @@ The repository contains scripts training xgboost model for kaggle bike sharing c
 
 
 ## How to run scripts in docker?
-
+    cd code_repository
+    docker build -t xgboost_test .
+    docker run -it <path_to_repo>:<path_inside_container> -p 8888:8888 xgboost_test bash
+    jupyter-notebook --ip=0.0.0.0 --no-browser --allow-root
 
 ## Results
 
